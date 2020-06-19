@@ -1,0 +1,351 @@
+2020-06-19 16:51:38.701 INFO  c.e.gamedemo.GamedemoApplication - Starting GamedemoApplication on Arsen with PID 14998 (/home/arsen/IdeaProjects/gamedemo/target/classes started by arsen in /home/arsen/IdeaProjects/gamedemo)
+2020-06-19 16:51:38.704 INFO  c.e.gamedemo.GamedemoApplication - No active profile set, falling back to default profiles: default
+2020-06-19 16:51:38.748 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 16:51:38.748 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-19 16:51:39.414 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:51:39.415 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-19 16:51:39.454 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 1 JPA repository interfaces.
+2020-06-19 16:51:39.462 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:51:39.462 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-19 16:51:39.470 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.gamedemo.repo.userrepo.UserRepo. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-19 16:51:39.470 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2020-06-19 16:51:39.810 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-19 16:51:39.815 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:51:39.815 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 16:51:39.815 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-19 16:51:39.863 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 16:51:39.863 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1115 ms
+2020-06-19 16:51:39.956 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:51:40.006 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-19 16:51:40.033 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-19 16:51:40.099 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-19 16:51:40.157 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-19 16:51:40.223 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-19 16:51:40.356 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-19 16:51:40.362 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-06-19 16:51:40.671 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-19 16:51:40.676 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:51:40.795 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-19 16:51:40.878 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-19 16:51:41.042 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:51:41.191 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-19 16:51:41.192 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-19 16:51:41.201 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-19 16:51:41.237 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-19 16:51:41.352 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-06-19 16:51:41.414 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-06-19 16:51:41.420 INFO  c.e.gamedemo.GamedemoApplication - Started GamedemoApplication in 2.968 seconds (JVM running for 3.523)
+2020-06-19 16:52:57.437 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 16:52:57.437 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 16:52:57.441 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-06-19 16:52:57.556 ERROR c.e.g.c.h.RestResponseEntityExceptionHandler - Error
+java.lang.IllegalArgumentException: InputStream must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.core.io.InputStreamResource.<init>(InputStreamResource.java:68)
+	at org.springframework.core.io.InputStreamResource.<init>(InputStreamResource.java:59)
+	at com.example.gamedemo.controller.UserController.downloadUserExcelFile(UserController.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 16:52:57.566 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: InputStream must not be null]
+2020-06-19 16:52:57.578 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571177455,"response_time_after":1592571177567,"request_URI":"/game/users/excel/_download","response_time_after_duration":112}
+2020-06-19 16:54:31.480 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:54:31.482 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:54:31.483 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-06-19 16:54:31.486 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-06-19 16:54:35.409 INFO  c.e.gamedemo.GamedemoApplication - Starting GamedemoApplication on Arsen with PID 16222 (/home/arsen/IdeaProjects/gamedemo/target/classes started by arsen in /home/arsen/IdeaProjects/gamedemo)
+2020-06-19 16:54:35.411 INFO  c.e.gamedemo.GamedemoApplication - No active profile set, falling back to default profiles: default
+2020-06-19 16:54:35.453 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 16:54:35.453 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-19 16:54:36.050 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:54:36.050 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-19 16:54:36.089 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 1 JPA repository interfaces.
+2020-06-19 16:54:36.097 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:54:36.098 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-19 16:54:36.106 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.gamedemo.repo.userrepo.UserRepo. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-19 16:54:36.106 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2020-06-19 16:54:36.467 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-19 16:54:36.471 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:54:36.472 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 16:54:36.472 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-19 16:54:36.508 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 16:54:36.509 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1055 ms
+2020-06-19 16:54:36.619 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:54:36.638 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-19 16:54:36.660 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-19 16:54:36.720 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-19 16:54:36.770 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-19 16:54:36.838 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-19 16:54:36.956 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-19 16:54:36.963 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-06-19 16:54:37.266 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-19 16:54:37.270 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:54:37.400 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-19 16:54:37.488 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-19 16:54:37.780 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:54:37.791 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-19 16:54:37.791 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-19 16:54:37.799 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-19 16:54:37.832 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-19 16:54:37.958 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-06-19 16:54:38.018 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-06-19 16:54:38.024 INFO  c.e.gamedemo.GamedemoApplication - Started GamedemoApplication in 2.876 seconds (JVM running for 3.379)
+2020-06-19 16:54:42.935 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 16:54:42.936 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 16:54:42.941 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-19 16:54:43.048 ERROR c.e.g.c.h.RestResponseEntityExceptionHandler - Error
+java.lang.IllegalArgumentException: InputStream must not be null
+	at org.springframework.util.Assert.notNull(Assert.java:198)
+	at org.springframework.core.io.InputStreamResource.<init>(InputStreamResource.java:68)
+	at org.springframework.core.io.InputStreamResource.<init>(InputStreamResource.java:59)
+	at com.example.gamedemo.controller.UserController.downloadUserExcelFile(UserController.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-19 16:54:43.061 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.IllegalArgumentException: InputStream must not be null]
+2020-06-19 16:54:43.076 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571282952,"response_time_after":1592571283062,"request_URI":"/game/users/excel/_download","response_time_after_duration":110}
+2020-06-19 16:55:34.945 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:55:34.946 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:55:34.948 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-06-19 16:55:34.950 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-06-19 16:55:37.927 INFO  c.e.gamedemo.GamedemoApplication - Starting GamedemoApplication on Arsen with PID 16576 (/home/arsen/IdeaProjects/gamedemo/target/classes started by arsen in /home/arsen/IdeaProjects/gamedemo)
+2020-06-19 16:55:37.929 INFO  c.e.gamedemo.GamedemoApplication - No active profile set, falling back to default profiles: default
+2020-06-19 16:55:37.968 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 16:55:37.968 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-19 16:55:38.586 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:55:38.586 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-19 16:55:38.627 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 1 JPA repository interfaces.
+2020-06-19 16:55:38.635 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:55:38.636 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-19 16:55:38.644 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.gamedemo.repo.userrepo.UserRepo. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-19 16:55:38.644 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2020-06-19 16:55:39.019 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-19 16:55:39.024 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:55:39.024 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 16:55:39.025 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-19 16:55:39.066 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 16:55:39.066 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1098 ms
+2020-06-19 16:55:39.184 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:55:39.204 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-19 16:55:39.230 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-19 16:55:39.296 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-19 16:55:39.351 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-19 16:55:39.418 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-19 16:55:39.559 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-19 16:55:39.566 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-06-19 16:55:39.915 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-19 16:55:39.920 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:55:40.070 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-19 16:55:40.178 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-19 16:55:40.495 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:55:40.505 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-19 16:55:40.506 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-19 16:55:40.514 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-19 16:55:40.547 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-19 16:55:40.683 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-06-19 16:55:40.750 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-06-19 16:55:40.757 INFO  c.e.gamedemo.GamedemoApplication - Started GamedemoApplication in 3.067 seconds (JVM running for 3.567)
+2020-06-19 16:55:45.650 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 16:55:45.650 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 16:55:45.655 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-06-19 16:55:46.511 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571345669,"response_time_after":1592571346496,"response_time":1592571346496,"response_duration":827,"request_URI":"/game/users/excel/_download","response_time_after_duration":827}
+2020-06-19 16:55:49.058 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571349013,"response_time_after":1592571349057,"response_time":1592571349057,"response_duration":44,"request_URI":"/game/users/excel/_download","response_time_after_duration":44}
+2020-06-19 16:55:50.443 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571350395,"response_time_after":1592571350443,"response_time":1592571350443,"response_duration":48,"request_URI":"/game/users/excel/_download","response_time_after_duration":48}
+2020-06-19 16:57:55.239 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571475199,"response_time_after":1592571475239,"response_time":1592571475239,"response_duration":40,"request_URI":"/game/users/excel/_download","response_time_after_duration":40}
+2020-06-19 16:58:48.573 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:58:48.574 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:58:48.575 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-06-19 16:58:48.578 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-06-19 16:58:50.568 INFO  c.e.gamedemo.GamedemoApplication - Starting GamedemoApplication on Arsen with PID 17248 (/home/arsen/IdeaProjects/gamedemo/target/classes started by arsen in /home/arsen/IdeaProjects/gamedemo)
+2020-06-19 16:58:50.571 INFO  c.e.gamedemo.GamedemoApplication - No active profile set, falling back to default profiles: default
+2020-06-19 16:58:50.612 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 16:58:50.612 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-19 16:58:51.341 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:58:51.342 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-19 16:58:51.388 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 1 JPA repository interfaces.
+2020-06-19 16:58:51.397 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 16:58:51.398 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-19 16:58:51.406 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.gamedemo.repo.userrepo.UserRepo. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-19 16:58:51.406 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3ms. Found 0 Redis repository interfaces.
+2020-06-19 16:58:51.757 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-19 16:58:51.762 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:58:51.763 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 16:58:51.763 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-19 16:58:51.822 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 16:58:51.822 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1210 ms
+2020-06-19 16:58:51.987 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 16:58:52.006 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-19 16:58:52.030 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-19 16:58:52.087 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-19 16:58:52.152 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-19 16:58:52.238 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-19 16:58:52.361 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-19 16:58:52.368 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-06-19 16:58:52.733 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-19 16:58:52.738 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 16:58:52.903 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-19 16:58:53.032 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-19 16:58:53.319 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-19 16:58:53.330 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-19 16:58:53.331 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-19 16:58:53.339 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-19 16:58:53.371 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-19 16:58:53.494 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-06-19 16:58:53.559 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-06-19 16:58:53.565 INFO  c.e.gamedemo.GamedemoApplication - Started GamedemoApplication in 3.238 seconds (JVM running for 3.827)
+2020-06-19 16:59:02.090 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 16:59:02.090 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 16:59:02.096 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-06-19 16:59:02.515 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571542108,"response_time_after":1592571542501,"response_time":1592571542501,"response_duration":393,"request_URI":"/game/users/excel/_download","response_time_after_duration":393}
+2020-06-19 16:59:07.619 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592571547593,"response_time_after":1592571547619,"response_time":1592571547619,"response_duration":26,"request_URI":"/game/users/excel/_download","response_time_after_duration":26}
+2020-06-19 17:01:52.479 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 17:01:52.480 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 17:01:52.481 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-06-19 17:01:52.483 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-06-19 19:32:33.164 INFO  c.e.gamedemo.GamedemoApplication - Starting GamedemoApplication on Arsen with PID 20554 (/home/arsen/IdeaProjects/gamedemo/target/classes started by arsen in /home/arsen/IdeaProjects/gamedemo)
+2020-06-19 19:32:33.167 INFO  c.e.gamedemo.GamedemoApplication - No active profile set, falling back to default profiles: default
+2020-06-19 19:32:33.217 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-19 19:32:33.217 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-19 19:32:34.002 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 19:32:34.003 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-06-19 19:32:34.052 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 1 JPA repository interfaces.
+2020-06-19 19:32:34.062 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-06-19 19:32:34.064 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-06-19 19:32:34.075 INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.gamedemo.repo.userrepo.UserRepo. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2020-06-19 19:32:34.075 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-06-19 19:32:34.464 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-06-19 19:32:34.470 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-19 19:32:34.470 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-06-19 19:32:34.470 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-06-19 19:32:34.518 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-06-19 19:32:34.518 INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1301 ms
+2020-06-19 19:32:34.617 INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-19 19:32:34.712 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-06-19 19:32:34.739 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-06-19 19:32:34.809 INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-19 19:32:34.868 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-06-19 19:32:34.939 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-19 19:32:35.085 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-06-19 19:32:35.092 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-06-19 19:32:35.473 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-19 19:32:35.478 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 19:32:35.617 INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-06-19 19:32:35.717 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-06-19 19:32:35.909 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-19 19:32:36.054 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-19 19:32:36.055 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-06-19 19:32:36.062 INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-06-19 19:32:36.097 INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-06-19 19:32:36.234 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Triggering deferred initialization of Spring Data repositories…
+2020-06-19 19:32:36.303 INFO  o.s.d.r.c.DeferredRepositoryInitializationListener - Spring Data repositories initialized!
+2020-06-19 19:32:36.309 INFO  c.e.gamedemo.GamedemoApplication - Started GamedemoApplication in 3.445 seconds (JVM running for 4.174)
+2020-06-19 19:32:47.395 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-19 19:32:47.395 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-06-19 19:32:47.402 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-06-19 19:32:47.442 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580767414,"response_time_after":1592580767430,"response_time":1592580767424,"response_duration":10,"request_URI":"/","response_time_after_duration":16}
+2020-06-19 19:32:47.481 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580767480,"response_time_after":1592580767481,"response_time":1592580767481,"response_duration":1,"request_URI":"/webjars/springfox-swagger-ui/css/typography.css","response_time_after_duration":1}
+2020-06-19 19:32:47.510 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580767489,"response_time_after":1592580767510,"response_time":1592580767510,"response_duration":21,"request_URI":"/error","response_time_after_duration":21}
+2020-06-19 19:32:47.593 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580767574,"response_time_after":1592580767593,"response_time":1592580767593,"response_duration":19,"request_URI":"/swagger-resources/configuration/ui","response_time_after_duration":19}
+2020-06-19 19:32:47.609 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580767602,"response_time_after":1592580767609,"response_time":1592580767609,"response_duration":7,"request_URI":"/swagger-resources","response_time_after_duration":7}
+2020-06-19 19:32:47.867 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580767860,"response_time_after":1592580767866,"response_time":1592580767866,"response_duration":6,"request_URI":"/swagger-resources/configuration/security","response_time_after_duration":6}
+2020-06-19 19:32:56.052 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580775928,"response_time_after":1592580776052,"response_time":1592580776051,"response_duration":123,"request_URI":"/game/users","response_time_after_duration":124}
+2020-06-19 19:33:00.457 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580780414,"response_time_after":1592580780457,"response_time":1592580780457,"response_duration":43,"request_URI":"/game/users/16","response_time_after_duration":43}
+2020-06-19 19:33:19.726 INFO  c.e.g.interceptor.LogInterceptor - {"request_time":1592580799708,"response_time_after":1592580799726,"response_time":1592580799726,"response_duration":18,"request_URI":"/game/users/_search","response_time_after_duration":18}
+2020-06-19 19:38:11.280 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-19 19:38:11.282 INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-19 19:38:11.283 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-06-19 19:38:11.286 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
